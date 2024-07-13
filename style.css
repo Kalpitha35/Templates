@@ -1,0 +1,455 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: "Wittgenstein", serif
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("https://www.craftginclub.co.uk/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fcgc-web%2F65b147fa615e73009ec3e581_Pinkcupcakes1200.jpg%3Fauto%3Dformat%2Ccompress&w=1930&q=75");
+    size: 100%;
+    background-size: 100%;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    background-color: rgb(253, 213, 231);
+    width: 100%;
+    height: 60px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    /* font-weight: 00; */
+    color: rgb(11, 11, 11);
+    font-family: "Wittgenstein", serif;
+    font-size: 20px;
+
+}
+.links:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.head-name{
+    font-size: 70px;
+    font-family: "Dancing Script", cursive;
+    color: rgb(56, 4, 43);
+    text-align: center;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.head-para{
+    font-size: 20px;
+    font-family: "Wittgenstein", serif;
+    color: rgba(15, 15, 15, 0.486);
+    margin: 0px 100px;
+    text-align: center;
+
+
+}
+.icons-group1{
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    /* background-color: white; */
+
+
+}
+.icon:hover .brands1{
+    color: white;
+    animation: rotate 3s;
+    background-image: linear-gradient(to bottom right,white,yellow,red,violet);
+
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+.brands1{
+    font-size: 50px;
+    color: black;
+}
+.para1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(254, 3, 183); 
+    /* background-image: linear-gradient(to bottom right,rgb(188, 33, 208),rgb(212, 101, 232),rgb(222, 93, 245),violet); */
+    margin-top: 50px;
+    border-radius: 10px;
+    /* background-color: cyan; */
+}
+.links-para1{
+    font-size: 30px;
+
+}
+.menu{
+    background-color: white;
+}
+.menu-head{
+    padding-top: 30px;
+    color: rgb(194, 32, 56) ;
+    font-size: 50px;
+    font-family: "Wittgenstein", serif;
+
+
+}
+.cake-size{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+   margin-top: -70px;
+   padding-left: 25px;
+   padding-right: 25px;
+
+
+}
+.cake-menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+.cake-types{
+    background-color: rgb(250, 109, 133);
+    height: 450px;
+}
+.cake-type-name{
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(194, 18, 53);
+}
+.cake-name-para{
+    height: 150px;
+    width:250px ;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(62, 4, 4);
+}
+.cake-more{
+    text-decoration: none;
+    background-color: rgb(161, 3, 64);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-left: 80px;
+    color: white;
+}
+.cake-grid{
+    width: 100%;
+    height: 100%;
+}
+
+.pick-flavour-grid{
+    
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 6px;
+    width: 40%;
+    height: 20%;
+    margin: 30px 50px;
+    /* border-radius: 10px; */
+}
+img.img1{
+    grid-row: span 3 / auto;
+    grid-column: span 3 / auto;
+}
+img.img2{
+    grid-column: span 1 / auto;
+    grid-row: span 2 / auto;
+
+}
+img.img3{
+    grid-column: span 3 / auto;
+
+}
+img.img4{
+    /* grid-row: span 3 / auto; */
+    grid-column: span 1 / auto;
+}
+img.img5{
+    grid-column: span 2/ auto;
+
+}
+img.img6{
+    grid-row: span 2/ auto;
+    grid-column: span 2/ auto;
+
+
+}
+img.imgs1{
+    grid-column: span 2 / auto;
+    grid-row: span 2 / auto;
+}
+img.imgs2{
+    grid-column: span 3 / auto;
+}
+img.imgs3{
+    grid-row: span 1 / auto;
+}
+img.imgs4{
+    grid-row: span 2 / auto;
+    grid-column: span 1 / auto;
+}
+.Sign-In{
+    height: 300px;
+    width: 500px;
+    margin-left: 700px;
+    margin-top: -320px;
+}
+
+.bake{
+    text-align: center;
+    margin-top: 30px;
+}
+.pick-cake{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.best-offer{
+    margin-top: 30px;
+    padding-left: 0px;
+    
+    
+}
+.offer-cakes{
+    width: 300px;
+    height: 300px;
+    
+}
+#cake-name{
+    font-size: 25px;
+    font-family: "Pacifico", cursive;
+    color: crimson;
+}
+.pick-cake{
+    background-color: rgb(255, 211, 244);
+}
+.cake-video{
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+.offer-pic{
+    align-items: center;
+    float: left;
+    padding-left: 60px;
+    padding-top: 30px;
+    height: 400px;
+    text-align: center;
+ 
+}
+.offer-head{
+    text-align: center;
+    padding-top: 50px;
+}
+.best-offer{
+    margin: -30px 0px;
+    height: 1300px;
+    background-color: rgb(252, 173, 215);
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: deeppink;
+    text-decoration: underline;
+}
+.b-img{
+    width: 400px;
+    height: 250px;
+ }
+
+.cake-blog{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+    background-color: rgb(247, 161, 207);
+
+}
+.blog-img{
+    margin:10px 90px;
+    border: 2px solid rgb(92, 90, 91);
+    border-radius: 6px;
+}
+.blog-details{
+    margin-top: 50px;
+}
+.blog-details.p {
+text-align: center;
+}
+.blog-span{
+    font-weight: 600;
+}
+#contact{
+    /* margin: 30px 0px; */
+    background-color: white;
+    height: 300px;
+}
+.icon-collections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,white,yellow,rgb(253, 66, 141),violet);
+}
+.brands{
+    color: black;
+    font-size: 30px;
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+
+}
+.section-head{
+    text-align: center;
+    padding-top: 40px;
+}
+#copyright{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.up-arrow{
+    float: right;
+    margin: -40px 30px 30px 0px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(248, 86, 140);
+    border-radius: 10px;
+}
+.sub-head{
+    font-weight: 700;
+    font-size: 20px;
+}
+#button{
+    width: 150px;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    margin-left:170px ;
+
+}
+.user{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin-left: 60px;
+    background-color: rgb(250, 152, 198);
+
+}
+.b1{
+    margin-left: 170px;
+
+}
+.no-account{
+    margin-left:80px ;
+}
+.sign{
+    text-align: center;
+    color: rgb(220, 20, 60);
+}
+
+.about-head{
+    text-align: center;
+    color:crimson ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.about-para{
+    text-align: center;
+    color: deeppink;
+}
+.para-about-det{
+    text-align: center;
+    color: black;
+}
+.about{
+    
+    background-color: rgb(253, 166, 183);
+}
